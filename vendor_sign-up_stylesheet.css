@@ -1,0 +1,100 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: back;
+    flex-direction: column;
+    position: relative;
+}
+header{
+    display: flex;
+    height: 24vh;
+    position: relative;
+    padding: 0 20px 0 20px;
+}
+header img{
+    height: 100px;
+    padding-top: 67px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65vh;
+    width: 90vw;
+}
+.input{
+    height: 10vh;
+    width: 90vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    font-size: 23px;
+    /* color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text input{
+    height: 30px;
+    width: 70vw;
+    outline: none;
+    font-size: 23px;
+    /* color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input input::placeholder{
+    font-size: 20px;
+    /* color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.placeholder-red::placeholder{
+    color: red;
+}
+.input img{
+    height: 5vh;
+}
+.password input{
+    height: 30px;
+    width: 65vw;
+    outline: none;
+    font-size: 23px;
+    /* color: black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#eye{
+    opacity: 0.5;
+    height: 4vh;
+}
+#eye2{
+    opacity: 0.5;
+    height: 4vh;
+}
+#submit_form{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+p{
+    color: rgba(0, 0, 0, 0.438);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-bottom: 20px;
+}
+p a{
+    opacity: 1;
+    color: rgb(29, 29, 73);
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

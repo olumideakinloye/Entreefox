@@ -1,0 +1,110 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: back;
+    flex-direction: column;
+    position: relative;
+}
+header{
+    display: flex;
+    height: 18vh;
+    position: relative;
+    padding: 0 20px 0 20px;
+    /* background-color: aqua; */
+}
+.logo img{
+    height: 160px;
+    /* padding-top: 67px; */
+    /* background-color: aquamarine; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 38vh;
+    width: 90vw;
+    /* background-color: blue; */
+}
+.input{
+    height: 10vh;
+    width: 90vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    font-size: 23px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text input{
+    height: 30px;
+    width: 70vw;
+    outline: none;
+    font-size: 23px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input input::placeholder{
+    font-size: 23px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input img{
+    height: 5vh;
+}
+.password input{
+    height: 30px;
+    width: 65vw;
+    outline: none;
+    font-size: 23px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#eye{
+    opacity: 0.5;
+    height: 4vh;
+}
+#eye2{
+    opacity: 0.5;
+    height: 4vh;
+}
+#submit_form{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.forgot a{
+    color: rgba(0, 0, 0, 0.438);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin-top: 20px;
+    text-decoration: none;
+    /* background-color: blueviolet; */
+}
+.signup p{
+    color: rgba(0, 0, 0, 0.438);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-bottom: 10px;
+    /* background-color: brown; */
+}
+.signup a{
+    opacity: 1;
+    color: rgb(29, 29, 73);
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

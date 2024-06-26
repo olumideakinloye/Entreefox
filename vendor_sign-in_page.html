@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor_sign-in_stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Create your Account</h1>
+    </header>
+    <div class="logo">
+      <img src="JHHW9351.PNG" alt="" />
+    </div>
+
+    <form action="Home_page.html">
+      <div class="input text">
+        <img src="envelope.png" alt="" />
+        <input type="text" placeholder="Email" />
+      </div>
+      <div class="input password">
+        <img src="padlock.png" alt="" id="padlock" />
+        <input type="password" placeholder="Password" id="password" />
+        <img src="eye.png" alt="" id="eye" />
+      </div>
+      <input type="submit" value="Sign in" id="submit_form" />
+    </form>
+    <div class="forgot">
+      <p><a href="#">Forgot Password?</a></p>
+    </div>
+    <div class="signup">
+      <p>
+        Don't have an account? <a href="vendor_sign-up_page.html">Sing up</a>
+      </p>
+    </div>
+
+    <script>
+      let padlock = document.getElementById("padlock");
+      let eye = document.getElementById("eye");
+      let password = document.getElementById("password");
+      eye.addEventListener("click", () => {
+        if (password.type == "password") {
+          password.type = "text";
+          eye.src = "3917126.png";
+          padlock.src = "open-padlock.png";
+        } else if (password.type != "password") {
+          password.type = "password";
+          eye.src = "eye.png";
+          padlock.src = "padlock.png";
+        }
+      });
+    </script>
+  </body>
+</html>

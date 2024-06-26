@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor_sign-up_stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Create your Account</h1>
+      <img src="JHHW9351.PNG" alt="" />
+    </header>
+    <form action="Home_page.html">
+      <div class="input text" id="name">
+        <img src="envelope.png" alt="" />
+        <input type="text" placeholder="Name" id="inputName" />
+      </div>
+      <div class="input text" id="emailBox">
+        <img src="envelope.png" alt="" />
+        <input type="text" placeholder="Email" id="email" />
+      </div>
+      <div class="input password" id="passwordBox">
+        <img src="padlock.png" alt="" id="padlock" />
+        <input type="password" placeholder="Password" id="password" />
+        <img src="eye.png" alt="" id="eye" />
+      </div>
+      <div class="input password" id="passwordBox2">
+        <img src="padlock.png" alt="" id="padlock2" />
+        <input type="password" placeholder="Confirm password" id="password2" />
+        <img src="eye.png" alt="" id="eye2" />
+      </div>
+      <input type="submit" value="Sign up" id="submit_form" onclick="return validated()"/>
+    </form>
+    <p>
+      Already have an account? <a href="vendor_sign-in_page.html">Sing in</a>
+    </p>
+
+    <script src="vendor_sign-up.js">
+    </script>
+  </body>
+</html>
